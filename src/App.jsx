@@ -1,17 +1,19 @@
 import NavBar from "./component/NavBar/NavBar"
-import Home from "./component/Home/Home"
 import {Routes , Route} from "react-router-dom"
+import Intro from "./component/Home/Intro"
 function App() {
   return (
     <>
-      <NavBar/>
+    <div className="flex flex-col mx-auto items-center w-full">
+    <NavBar/>
       <div>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Intro/>}/>
           <Route/>
           <Route/>
         </Routes>
       </div>
+    </div>
     </>
   )
 }
