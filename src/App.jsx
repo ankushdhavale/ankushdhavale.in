@@ -8,7 +8,6 @@ function App() {
     <NavBar/>
       <div>
         <Routes>
-          <Route path="/" element={<Intro/>}/>
           <Route/>
           <Route/>
         </Routes>
