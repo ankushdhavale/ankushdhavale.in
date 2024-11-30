@@ -30,15 +30,15 @@ const Navbar = () => {
     <div>
         <nav className='fixed left-0 right-0 top-4 z-50'>
             {/* DesktopMenu */}
-            <div className='mx-auto hidden max-w-2xl items-center gap-6 justify-center rounded border border-stone-50/30 py-2 backdrop-lg lg:flex'>
-                <div className='flex items-center justify-between gap-6'>
+            <div className='mx-auto hidden max-w-3xl items-center gap-6 justify-center rounded-full border border-stone-50/30 py-2 backdrop-lg lg:flex'>
+                <div className='flex items-center justify-between gap-16'>
                     <div>
                         <a href="#">
                             <h1 className='text-2xl font-semibold font-mono'>Ankush</h1><span className='absolute rotate-[31deg] text-xl top-[3px] mx-16'>😎</span>
                         </a>
                     </div>
                     <div>
-                        <ul className='flex items-center gap-4'>
+                        <ul className='flex items-center gap-6'>
                             {NAVIGATION_LINKS.map((item , index) =>(
                             <li key={index}>
                                 <a 
@@ -57,7 +57,7 @@ const Navbar = () => {
                         Ankush
                     </a>
                     <div className='flex items-center justify-end'>
-                          {/* <a href=""className='text-3xl mr-1 hover:text'><RxResume/></a> */}
+                          <a href="mailto:dhavaleankush3@gmail.com"className='text-sm mr-1'>Email</a>
                         <button className='focus:outline-none lg:hidden'
                         onClick={toggleMobileMenu} >
                         {isMobileMenuOpen ? (
