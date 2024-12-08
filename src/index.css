@@ -10,6 +10,7 @@
 html , body{
   background-image: linear-gradient(to bottom right, #343538, #001524);
   height: 100%;
+  width: 100%;
   margin: 0;
   overflow-x: hidden;
 }
@@ -18,7 +19,6 @@ html , body{
 
 body{
   font-family: "Parkinsans", serif;
-  background-color: #001524;
   color: #fff;
 }
 

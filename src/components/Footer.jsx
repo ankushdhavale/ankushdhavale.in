@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="mb-8 mt-20">
       <div className='flex justify-center flex-col items-center mb-4 mt-4 gap-4'>
-        <img src={ankussh} alt="" className='w-20 h-20 rounded-full bg-white bg-cover border border-stone-50/30'/>
+        <img src={ankussh} alt="" className='w-20 h-20 rounded-full bg-cover border border-stone-50/30'/>
         <h1>Ankush Dhavale</h1>
       </div>
         <div className='flex items-center justify-center gap-8'>
