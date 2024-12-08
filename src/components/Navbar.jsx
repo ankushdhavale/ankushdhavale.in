@@ -34,7 +34,7 @@ const Navbar = () => {
                 <div className='flex items-center justify-between gap-16'>
                     <div>
                         <a href="#">
-                            <h1 className='text-2xl font-semibold font-mono'>Ankush</h1><span className='absolute rotate-[31deg] text-xl top-[3px] mx-16'>😎</span>
+                            <h1 className='Ankush text-2xl'>Ankush</h1><span className='absolute rotate-[31deg] text-xl top-[3px] mx-16'>😎</span>
                         </a>
                     </div>
                     <div>

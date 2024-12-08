@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Parkinsans:wght@300..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 html , body{
+  background-image: linear-gradient(to bottom right, #343538, #001524);
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
+/* #1E3B70 > #29539B */
+
 body{
-  font-family: "Space Grotesk",sans-serif;
+  font-family: "Parkinsans", serif;
   background-color: #001524;
   color: #fff;
 }
@@ -22,4 +27,8 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.Ankush{
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
 }
