@@ -18,8 +18,8 @@ html , body{
 /* #1E3B70 > #29539B */
 
 body{
-  background-image: linear-gradient(to top left, #343538, #010d28);
-  /* background-color:  #001524; */
+  /* background-image: linear-gradient(to left, #343538, #010d28); */
+  background-color:  #001524;
   font-family: "Parkinsans", serif;
   color: #fff;
 }
