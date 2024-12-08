@@ -19,7 +19,7 @@ html , body{
 
 body{
   background-image: linear-gradient(to top left, #343538, #010d28);
-  background-color:  #001524;
+  /* background-color:  #001524; */
   font-family: "Parkinsans", serif;
   color: #fff;
 }
