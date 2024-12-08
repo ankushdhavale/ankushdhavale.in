@@ -30,7 +30,7 @@ const Projects = () => {
                         <h3 className='mb-1 text-xl'>{project.name}</h3>
                         <p className='mb-1 p-4'>{project.description}</p>
                         <a href={project.githubLink} target='_blank' rel='noopener noreferrer'
-                         className='rounded bg-white px-3 py-1 text-black hover:bg-gray-500'>
+                         className='rounded px-3 py-1 text-black hover:bg-gray-500'>
                             <div className='flex items-center'>
                                 <span>View on Github</span>
                                 <MdArrowOutward/>
