@@ -12,7 +12,7 @@ const Footer = () => {
                 <a key={index} href={link.href} target='_blank' rel='noopener noreferrer'>{link.icon}</a>
             ))}
         </div>
-        <p className='mt-8 text-center text-sm tracking-wide text-gray-480'>
+        <p className='mt-8 text-center text-sm tracking-wide'>
             <b>No&copy; copyright issues</b>
             <p>Feel free to copy, if you need any help,ping me !</p>
         </p>

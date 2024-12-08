@@ -21,7 +21,7 @@ const Projects = () => {
                     <motion.img 
                         whileHover={{scale:1.1}}
                         src={project.image} alt={project.name}
-                        className=' h-full w-full object-cover transition-transform duration-500 group-hover:scale-110' />
+                        className='h-full w-full object-cover transition-transform duration-500 group-hover:scale-110' />
                     <motion.div 
                         initial={{opacity:0}}
                         whileHover={{opacity:1}}
