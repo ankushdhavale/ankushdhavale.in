@@ -8,7 +8,6 @@
 
 
 html , body{
-  background-image: linear-gradient(to bottom right, #343538, #001524);
   height: 100%;
   width: 100%;
   margin: 0;
@@ -18,6 +17,7 @@ html , body{
 /* #1E3B70 > #29539B */
 
 body{
+  background-image: linear-gradient(to bottom right, #343538, #001524);
   font-family: "Parkinsans", serif;
   color: #fff;
 }
